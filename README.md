@@ -1,61 +1,87 @@
-# 💳 Fraud Detection Project
+# 💳 Fraud Detection Data Analysis
 
-## 📌 Overview
+---
 
-Detect fraudulent transactions using machine learning. Classify transactions as **legitimate** ✅ or **fraudulent** ❌.
+## 📌 Project Overview
 
-## 📊 Dataset
+This project analyzes transaction data to detect fraud. The goal is to identify suspicious transactions, minimize losses, and support secure financial operations.
 
-* **Source:** [Specify source, e.g., Kaggle]
-* **Format:** CSV / Excel / SQL
-* **Features:**
+---
 
-  * `transaction_id` 🆔 Unique ID
-  * `amount` 💰 Transaction amount
-  * `time` ⏰ Timestamp
-  * `customer_id` 👤 Customer ID
-  * `merchant_id` 🏪 Merchant ID
-  * `transaction_type` 💳 Online, in-store, etc.
-  * `label` ⚠️ 0 = legitimate, 1 = fraud
+## 🛠️ Tools Used
 
-## 🔧 Data Preprocessing
+* 🐍 Python
+* 📊 Pandas
+* 📈 Scikit-learn
+* 📉 Matplotlib / Seaborn
+* 💾 CSV / Excel
 
-* Handle missing values ❓
-* Encode categorical variables 🔢
-* Normalize/scale numerical features 📏
-* Split data into training & test sets 🗂️
+---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## 📂 Dataset
+
+* Fraud Detection Dataset (transactions labeled as fraud or legitimate)
+
+---
+
+## 🎯 Project Objective
+
+* Identify fraudulent transactions
+* Evaluate features impacting fraud
+* Build machine learning models for prediction
+* Deliver actionable insights for prevention
+
+---
+
+## 🧹 Data Cleaning Steps
+
+* Removed duplicate rows
+* Checked and handled missing values ❓
+* Encoded categorical variables 🔢
+* Scaled numeric features 📏
+* Split dataset into training and testing sets 🗂️
+
+---
+
+## 📊 Analysis Performed
 
 * Fraud vs non-fraud distribution 📈
-* Feature correlation heatmap 🌡️
-* Histograms & boxplots 📊
+* Correlation between features 🌡️
+* Impact of transaction amount and type on fraud 💳
+* Visualized high-risk patterns 🖼️
+
+---
 
 ## 🤖 Model Building
 
-* Algorithms: Logistic Regression, Random Forest 🌲, XGBoost, Neural Networks 🧠
-* Hyperparameter tuning 🔧
-* Metrics: Accuracy ✅, Precision 🎯, Recall 📡, F1-score ⚖️, ROC-AUC 🖤
+* Logistic Regression
 
-## 📈 Results
+* Random Forest 🌲
 
-* Best model: [Model Name] 🏆
-* Performance:
+* XGBoost ⚡
 
-  * Accuracy: X%
-  * Precision: X%
-  * Recall: X%
-  * F1-score: X%
-  * ROC-AUC: X%
+* Neural Network 🧠
 
-## 🚀 How to Run
+* Evaluated models with: Accuracy ✅, Precision 🎯, Recall 📡, F1-score ⚖️, ROC-AUC 🖤
 
-1. Clone repo: `git clone <repo_url>`
-2. Install dependencies: `pip install -r requirements.txt` 📦
-3. Run script/notebook: `python fraud_detection.py` 🏃
+---
 
-## 🌟 Future Work
+## 📈 Key Insights
 
-* Deep learning for higher accuracy 🧠
-* Real-time fraud detection ⏱️
-* Behavioral feature engineering 🕵️
+* High transaction amounts have higher fraud risk 💰
+* Certain transaction types are more prone to fraud 💳
+* Random Forest performed best with X% accuracy 🏆
+
+---
+
+## 📸 Dashboard / Visualization Preview
+https://abhishekacharya18.github.io/
+
+
+---
+
+## 🚀 Outcome
+
+* Built predictive model for fraud detection
+* Highlighted high-risk transaction patterns
+* Provided insights to improve fraud prevention strategy
