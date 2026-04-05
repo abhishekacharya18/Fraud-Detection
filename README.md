@@ -20,7 +20,7 @@ This project analyzes transaction data to detect fraud. The goal is to identify 
 
 ## 📂 Dataset
 
-* Fraud Detection Dataset (transactions labeled as fraud or legitimate)
+* Fraud Detection Dataset (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 ---
 
